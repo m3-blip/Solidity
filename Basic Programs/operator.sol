@@ -26,5 +26,13 @@ contract Op{
         require(a>b,'true');
         return true;
     }
+    function logic(uint a,uint b)public view returns(uint)
+    {
+        if(a<b&&a>4)
+        {
+            return a+b;
+        }
+        //or=|| and !(a>)
+     }
 
 }
