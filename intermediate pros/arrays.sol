@@ -21,4 +21,8 @@ contract LearnArrays
     {
         return myArray.length;
     }
+    function remove(uint i)public
+    {
+        delete myArray[i];
+    }
 }
